@@ -1,0 +1,28 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(hellbonetext.otf);
+}
+
+#feuermaintitel {
+    font-size: 23pt;
+    font-weight: 100;
+    font-family: myFirstFont;
+    letter-spacing: 4px;
+}
+
+#feuertopbar {
+    /*background-color: #731300;*/
+    background-color: #8F1700;
+}
+
+#feuerfooter {
+    /*background-color: #C3AC00;*/
+    background-color:#C46729;
+}
+
+#feuershowteaser {
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+}

@@ -1,0 +1,298 @@
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #025948;
+}
+
+.nav {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 130px;
+    /*width: 145px;*/
+    z-index: 6;
+}
+
+
+li a {
+    font-family: Roboto-Regular;
+    font-size: 13pt;
+    text-decoration: none;
+    letter-spacing: 1px;
+    display: block;
+    color: #B3B3B3;
+    padding-bottom: 8px;
+}
+li a:hover {
+    background-color: #820301;
+}
+.active {
+    color: #FFFFFF;
+}
+
+.geheimlink {
+    color: #5A0201;
+}
+
+
+
+/*dieser code (html, body) ist damit man auf der Seite nicht Scrollen kann
+ (sonst sind meine top-bar, side-bar und footer elemente unschön)*/
+html, body {
+    margin: 0;
+    height: 100%; 
+    overflow: hidden;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-rows: /* 24% 36% 40%; */ 150px 430px 150px;
+    grid-template-columns: repeat(4, 18.3%) 1fr;
+}
+/*grid-area: row-start / col-start / row-end / col-end*/
+.top-bar {
+   grid-area: 1 / 1 / 2 / 6 ;
+   transform: skewY(6deg);
+   transform-origin: bottom right;
+   bottom: 0;
+   right: 0;
+   z-index: 4;
+}
+
+/* seitentitel, also der Titel im der Top-leiste*/ 
+h1 {
+    position: static;
+    font-family: FatFace;
+    font-weight: 100;
+    font-size: 46pt;
+    /*color: #737373;*/
+    color: #FFFFFF;
+    transform: skewY(-6deg);
+    text-align: center;
+    padding-top: 17px;
+    z-index: 5;
+}
+
+#homemaintitel::first-letter{
+    color: #025948;
+}
+
+.side-bar {
+    grid-area: 1 / 1 / 4 / 2 ;
+    background-color: #5A0201;
+    transform: skewX(-15deg);
+    transform-origin: top right;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    text-align: center;
+}
+
+
+
+/*grid-area: row-start / col-start / row-end / col-end*/
+.main {
+    overflow: auto;
+    padding-right: 20px;
+    padding-top: 30px;
+    grid-area: 1 / 2 / 3 / 6 ;
+    z-index: 1;
+    font-family: Roboto-Light;
+    font-size: 12pt;
+
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(main.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(nav.ttf);
+}
+
+
+@font-face {
+    font-family: Fatface;
+    src: url(h1.ttf);
+}
+
+
+ /* Titel des Mainbereichs*/
+h2 {
+    margin-top: 85px;
+    font-size: 20pt;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-right: 175px;
+    margin-bottom: 30px;
+}
+
+.maintext1 {
+    margin-bottom: 50px;
+}
+
+.maintext2 {
+    margin-bottom: 50px;
+}
+
+#gitarremaintext2 {
+    margin-bottom: 0px;
+}
+
+
+.bildobenlinks {
+    width: 25%;
+    height: auto;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    float: left; 
+}
+
+#gitarrebildobenlinks {
+    margin-bottom: 2px;
+}
+
+.bildobenrechtsmeinegitarre {
+    width: auto;
+    height: 500px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-top: 75px;
+    float: left; 
+
+}
+
+#homebildobenlinks {
+    width: auto;
+    height: 235px;
+}
+
+#feueroben {
+    float: right;
+    width: 30%;
+    height: auto;
+    margin-bottom: 5px;
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.bilduntenrechts {
+    float: right;
+    width: 25%;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 5px;
+
+}
+
+
+#zaubernbilduntenrechts {
+    float: right;
+    width: auto;
+    height: 200px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.bilduntenlinks {
+    float: left;
+    width: auto;
+    height: 210px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+#feuerunten {
+    width: auto;
+    height: 180px;
+    float: left;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.bildmitte {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.footer {
+    grid-area: 3 / 1 / 4 / 6;
+    transform: skewY(-4deg);
+    transform-origin: top right;
+    top: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.footertext {
+    z-index: 5;
+    text-align: center;
+    transform: skewY(4deg);
+    margin-top: 2%;
+    color: #FFFFFF;
+}
+#hometopbar {
+    background-color: #025948;
+}
+
+#homefooter {
+    background-color: #063E59; 
+}
+
+#gitarretopbar {
+    background-color: #6B2D01; 
+}
+
+#gitarrefooter {
+    background-color: #A84416;
+}
+
+
+#zauberntop {
+    background-color:#230545;
+}
+
+#zaubernfooter {
+    background-color: #718DA6;
+    /*background-color: #A80000;*/
+}
+
+#geheimtop {
+    background-color: #000000;
+}
+
+#geheimfooter {
+    background-color: #707070;
+}
+
+#geheimlinkcardistry {
+    color: #6F0202;
+}
+
+#willkommen {
+    text-align: center;
+    margin-right: 160px;
+    margin-bottom: 35px;
+}
+
+#homeh22 {
+    margin-top: 45px;
+}
+
+#klassenseite {
+    color: #9495a7;
+}
