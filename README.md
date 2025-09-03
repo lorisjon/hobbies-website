@@ -53,18 +53,32 @@ Here is the original mock-up that guided the development:
 
 ![Mockup Layout](./assets/mockup.png)
 
-This structured approach allowed me to focus on both **functionality** and **visual design** and was part of the project grading process.
+You can also view the full concept document here:  
+[📄 Konzept_Stahlberg_Loris.pdf](./Konzept/Konzept_Stahlberg_Loris.pdf)  
+
+This document (in German) contains:
+- A **management summary** of the project goals  
+- A **site map** and page structure plan  
+- A **design concept** (layout grid, color choices, navigation structure)  
+- The **timeline** and project planning steps  
+
+Including it here shows how much planning went into this first project.
 
 ---
 
 ## Project Context
 
 This project was my very first experience with developing an application.  
-I learned the basics of **HTML** and **CSS**, practiced planning and implementing a complete website, and built something that matched my initial concept.  
+I started with no prior experience in HTML or CSS, learned the basics through two short lessons and a lot of self-study using W3Schools, and gradually became comfortable enough to work mostly independently after a few weeks.  
+
+One of the biggest technical challenges was creating the angled header, sidebar, and footer — I solved this by experimenting and eventually using the CSS `skew()` transform.  
+
+I learned not just how to implement a layout and style a website, but also the importance of **planning**, **problem solving**, and later even reflecting on how to improve (for example, I realized the importance of making websites responsive and not hardcoding pixel values).  
 
 > “The goal was to create a fully functioning, well-designed website from scratch, without relying on code-generating tools.”
 
 I successfully finished ahead of schedule and earned the top grade of **6.0**, the highest possible grade.
+
 
 ---
 
@@ -76,3 +90,15 @@ git clone https://github.com/<your-username>/hobbies-website.git
 
 # Open the main page in your browser
 open index.html
+```
+
+
+---
+
+## Author
+
+Created by **Loris Stahlberg**  
+Aspiring software developer passionate about building and learning through real projects.  
+
+You can find more of my work and projects on my portfolio:  
+[View my portfolio](https://lorisstahlberg.ch)
