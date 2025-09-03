@@ -86,3 +86,14 @@ git clone https://github.com/<your-username>/hobbies-website.git
 # Open the main page in your browser
 open index.html
 ```
+
+
+---
+
+## Author
+
+Created by **Loris Stahlberg**  
+Aspiring software developer passionate about building and learning through real projects.  
+
+You can find more of my work and projects on my portfolio:  
+[View my portfolio](https://lorisstahlberg.ch)
