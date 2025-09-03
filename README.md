@@ -53,7 +53,16 @@ Here is the original mock-up that guided the development:
 
 ![Mockup Layout](./assets/mockup.png)
 
-This structured approach allowed me to focus on both **functionality** and **visual design** and was part of the project grading process.
+You can also view the full concept document here:  
+[📄 Konzept_Stahlberg_Loris.pdf](./Konzept/Konzept_Stahlberg_Loris.pdf)  
+
+This document (in German) contains:
+- A **management summary** of the project goals  
+- A **site map** and page structure plan  
+- A **design concept** (layout grid, color choices, navigation structure)  
+- The **timeline** and project planning steps  
+
+Including it here shows how much planning went into this first project.
 
 ---
 
@@ -76,3 +85,4 @@ git clone https://github.com/<your-username>/hobbies-website.git
 
 # Open the main page in your browser
 open index.html
+```
