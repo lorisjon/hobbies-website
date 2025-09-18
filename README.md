@@ -1,4 +1,4 @@
-# Meine Hobbys – First Website Project
+# Meine Hobbys, First Website Project
 
 A fully hand-coded website built with **HTML & CSS** as my very first programming project.  
 This project was created as my first step into application development, where I planned, designed, and implemented a complete website entirely without using code generators or AI assistance.
